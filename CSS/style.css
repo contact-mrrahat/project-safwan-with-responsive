@@ -1,0 +1,46 @@
+/* ================Nav part Start================= */
+.navbar{
+  padding: 30px 0;
+}
+
+.menu_button a{
+  background: #E5745D;
+  padding: 26px 44px;
+  text-decoration: none;
+  font-family: "Jost", sans-serif;
+  font-weight: 500;
+  color: white;
+  position: relative;
+
+
+}
+
+
+.menu_button a::after{
+  position: absolute;
+  content: "";
+  width: 167px;
+  height: 63px;
+  left: 9px;
+  top: 6px;
+  border: 2px solid white;
+
+}
+
+.nav-link{
+  color: #00413D;
+  font-size: 18px;
+  font-family: "Jost", sans-serif;
+  font-weight: 400;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.nav-link:hover{
+  color: #E5745D;
+}
+
+.navbar-nav {
+  column-gap: 50px;
+}
+/* ================Nav part End================= */
