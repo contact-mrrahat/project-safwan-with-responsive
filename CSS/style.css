@@ -130,7 +130,14 @@ padding-top: 220px;
   background: #E5745D;
   position: relative;
 }
-
+.service_possition{
+  position: relative;
+}
+.service_posstion_div{
+  position: absolute;
+  top: -7px;
+  left: -73px;
+}
 .service_line1::before{
   content: "";
     position: absolute;
@@ -141,4 +148,68 @@ padding-top: 220px;
     right: -2px;
     border-radius: 50%;
 }
+
+.service h3{
+  font-family: "Vollkorn", serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #E5745D;
+}
+
+.service_header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.service_header h1{
+  padding-top: 11px;
+  text-align-last: center;
+  width: 435px;
+  font-family: "Vollkorn", serif;
+  font-weight: 500;
+
+}
+
+.service .row{
+  padding-top: 40px;
+  width: 100% !important;
+}
+
+
+.service .card{
+  width: 100% !important;
+  border: none;
+  -webkit-box-shadow: 5px 3px 16px -4px rgba(0,0,0,0.44);
+  -moz-box-shadow: 5px 3px 16px -4px rgba(0,0,0,0.44);
+   box-shadow: 5px 3px 16px -4px rgba(0,0,0,0.44);
+
+}
+
+.service .card img{
+  width: 20%;
+  padding-top: 35px;
+}
+.service .card .card-title{
+  padding-top: 25px;
+  font-family:"Vollkorn", serif; 
+  font-weight: 800;
+  font-size: 24px;
+}
+.service .card .card-text{
+  padding-top: 15px;
+  font-family: "Jost", sans-serif;
+  font-size: 16px;
+  color: #00413D !important;
+}
+
+.service .card .fa-solid {
+  color:rgba(0, 0, 0, 0.7);
+  padding-top: 10px;
+  font-size: 28px;
+  
+  
+}
 /* ================Service part End================= */
+/* ================S part End================= */
+/* ================S part End================= */
