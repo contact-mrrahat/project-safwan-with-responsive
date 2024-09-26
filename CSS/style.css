@@ -110,3 +110,35 @@
 }
 
 /* ================Banner part End================= */
+
+/* ================Service part Start================= */
+
+.service .service_tag{
+display: flex;
+position: relative;
+justify-content: center;
+align-items: center;
+padding-top: 220px;
+
+
+}
+
+.service_line{
+  margin: 0 12px;
+  width: 50px;
+  height: 2px;
+  background: #E5745D;
+  position: relative;
+}
+
+.service_line1::before{
+  content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: #E5745D;
+    top: -3px;
+    right: -2px;
+    border-radius: 50%;
+}
+/* ================Service part End================= */
