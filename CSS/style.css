@@ -67,7 +67,7 @@
   background-position: center;
   top: 0;
   right:-48%;
-  transition: .4s;
+  transition: .8s;
   z-index: -1;
   
 }
@@ -306,6 +306,51 @@ padding-top: 220px;
 
 
 /* ================Skill part Start================= */
+.skill_card{
+  padding-top: 80px;
+}
+.skill .skill_card1{
+
+  -webkit-box-shadow: 6px 0px 26px 2px rgba(0,0,0,0.06);
+  -moz-box-shadow: 6px 0px 26px 2px rgba(0,0,0,0.06);
+  box-shadow: 6px 0px 26px 2px rgba(0,0,0,0.06);
+ 
+  
+  
+}
+.skill_card_top{
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  row-gap: 24px;
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+.skill_card_top1{
+  
+  height: 167px;
+  width: 167px;
+  border: 4px solid #E5745D;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.skill_card_top h1{
+  font-family: "Vollkorn", serif;
+  font-size: 26px;
+  font-weight: 600;
+  color: #00413D;
+}
+.skill_card_top1 h2{
+  color: #E5745D;
+  font-family: "Vollkorn", serif;
+  font-size: 34px;
+  font-weight: 600;
+}
 
 
 
