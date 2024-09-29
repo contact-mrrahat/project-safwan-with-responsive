@@ -702,3 +702,85 @@ background: #00413D;
 
 }
 /* ================ Testimonial Part End================= */
+
+
+/* ================ Contact Part Start================= */
+
+.contact_part{
+  padding-top: 108px;
+}
+.contact_part .one{
+  width: 40%;
+}
+
+.contact_part .about_left{
+  padding-top: 47px;
+}
+
+.contact_right{
+  font-family: "Vollkorn", serif;
+  font-size: 50px;
+  font-weight: 400;
+  color: #00413D;
+}
+
+.contact_left{
+  height: 586px;
+  width: 100%;
+  background-image: url(../Img/flower4.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.contact_part .two{
+  width: 60%;
+}
+.contact_part .contact_right .row{
+  column-gap: 70px;
+}
+
+.contact_right h1{
+  padding-top: 11px;
+  font-family: "Vollkorn", serif;
+  font-size: 50px;
+  font-weight: 400;
+  color: #00413D;
+}
+.form-control{
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0,0.1);
+  border-radius: 0;
+  font-family: "Jost", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: rgb(0, 65, 61,0.7);
+}
+
+.contact_part .col{
+  padding: 0;
+  display: flex;
+  column-gap: 94px;
+}
+
+.contact_part .col input{
+  padding: 0 ;
+  margin-left:14px;
+  padding-bottom: 4px;
+
+}
+
+.contact_form{
+  padding-top: 40px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 57px;
+}
+
+.contact_form .fix{
+  margin-left:-11px;
+}
+
+.contact_button{
+  padding-top: 50px;
+}
+/* ================ Contact Part End================= */
