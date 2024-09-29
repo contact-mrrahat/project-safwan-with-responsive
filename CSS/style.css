@@ -439,3 +439,104 @@ padding-top: 220px;
   text-align: center;
 }
 /* ================Recent Project part End================= */
+
+
+/* ================ Protfolio part Start================= */
+
+.protfolio .protfolio_line{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profotlio .protfolio_line .about_left{
+  padding-top: 120px;
+}
+
+.protfolio_cnt h1{
+  font-family: "Vollkorn", serif;
+  font-size: 50px;
+  font-weight: 500;
+  padding-top: 10px;
+  color: #00413D;
+  text-align: center;
+}
+
+.protfolio_cnt_nav ul{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.protfolio_cnt_nav ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  
+}
+.protfolio_cnt_nav ul li a{
+    text-decoration: none;
+    font-family: "Vollkorn", serif;
+    font-size:16px;
+    font-weight: 400;
+    color: #00413D;
+    
+}
+
+.li_line{
+  position: relative;
+}
+.line_titel{
+  position: absolute;
+  content: "";
+  width: 25px;
+  height: 2px;
+  top: 25px;
+  left: 2px;
+  background: #E5745D;
+}
+
+
+.protfolio .card{
+  padding-top: 420px;
+  width: 100%;
+  background: #C4C4C4;
+}
+
+.protfolio .card:hover{
+background: #00413D;
+}
+.profotlio .row{
+  row-gap: 20px;
+}
+.profolio_padding{
+  padding-top: 40px;
+}
+
+.protfolio_card .card-body{
+  flex: 1 1 auto;
+  padding: 1rem 1rem;
+  align-items: center;
+  justify-content: end;
+  display: flex;
+  flex-direction: column;
+}
+.protfolio_card .card-body{
+  background: #00413D;
+  
+  align-items: flex-start;
+}
+
+.protfolio_card .card-body h5{
+    font-family: "Vollkorn", serif;
+    font-size:24px;
+    font-weight: 600;
+    color: #ffffff;
+}
+.protfolio_card .card-body p{
+    font-family: "Jost", sans-serif;
+    font-size:16px;
+    font-weight: 400;
+    color: #ffffff;
+}
+/* ================ Protfolio part End================= */
