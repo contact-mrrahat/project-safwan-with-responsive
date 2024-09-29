@@ -570,3 +570,135 @@ background: #00413D;
 
 
 /* ================ Protfolio part End================= */
+
+/* ================ Testimonial Part Start================= */
+.testimonial{
+  margin-top: 120px;
+  background: #F9F4F1;
+}
+
+.testimonial .about_left{
+  padding-top: 120px;
+}
+.testimonial .clint_testi{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.testimonial h1{
+    text-align: center;
+    font-family: "Vollkorn", serif;
+    font-size: 50px;
+    font-weight: 500;
+    color: #00413D;
+    
+}
+
+.testimonial .row{
+  padding-top: 40px;
+}
+
+.testimonial .testi_right{
+  background: #ffffff;
+  padding: 30px 40px;
+  position: relative;
+ 
+}
+.testimonial .testi_right p {
+  margin: 0;
+}
+
+
+.testi_right_line{
+  position: absolute;
+  width: 100%;
+  height: 7px;
+  background: #E5745D;
+  right: 0px;
+  top: 0px;
+}
+
+.testi_right_img{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  right: -55px;
+  top: 118px;
+}
+
+.testi_reviwe{
+  display: flex;
+}
+
+.testi_reviwe_left{
+  width: 30%;
+  padding-top: 30px;
+  padding-left: 59px;
+}
+.testi_reviwe ul{
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.testi_reviwe_right{
+  padding-top: 30px;
+}
+
+.testi_reviwe_right h1{
+  font-family: "Vollkorn", serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: #00413D;
+}
+.testi_reviwe_right h4{
+  font-family: "Jost", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #00413D;
+
+}
+.testi_reviwe_right i{
+  
+  color: #FF9F3F;
+
+}
+
+.testimonial_dot{
+  padding-bottom: 72px;
+}
+
+.testimonial_dot ul{
+  padding-top: 87px;
+  display: flex;
+  gap: 7px;
+  justify-content: center;
+  align-items: center;
+  color: #D9D9D9;
+  
+  
+}
+
+.testimonial_dot ul li{
+ width: 8px;
+ height: 8px;
+}
+
+.dot_position{
+  position: relative;
+  
+}
+
+.dot_possiton1{
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: #E5745D;
+  right: 17px;
+  top: 8px;
+  border-radius: 50%;
+  
+
+}
+/* ================ Testimonial Part End================= */
