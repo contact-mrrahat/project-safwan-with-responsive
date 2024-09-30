@@ -868,3 +868,89 @@ background: #00413D;
 
 
 /* ================ Blog Part End================= */
+
+/* ================ Footer Part Start================= */
+
+footer{
+  background: #00413D;
+  margin-top: 120px;
+
+}
+
+.footer_nav{
+  padding-top: 60px;
+
+}
+
+.footer_nav ul{
+  display: flex;
+  gap: 27px;
+  justify-content: center;
+  align-items: center;
+}
+.footer_nav ul li{
+  color: #ffffff;
+  list-style: none;
+  border-right: 1px solid rgba(255, 255, 255, 0.1);
+  padding-right: 30px;
+  font-size: 18px;
+  font-weight: 500;
+
+ 
+}
+
+.footer_img{
+  text-align: center;
+  padding-top: 80px;
+}
+
+.footer_logo{
+  padding-top: 50px;
+  padding-bottom: 80px;
+}
+
+.footer_logo ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  gap: 30px;
+  color: #ffffff;
+  
+  
+  
+}
+.footer_logo ul li{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  background: #E5745D;
+  border-radius: 50%;
+}
+.footer_logo ul li i{
+  font-size: 30px;
+}
+
+.logo_witdh{
+  
+  width: 100%;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.1);
+
+}
+.copy_right{
+  padding-top: 30px;
+  padding-bottom: 38px;
+}
+.copy_right h5{
+  
+  font-family: "Jost", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  color: #ffffff;
+  text-align: center;
+
+}
+/* ================ Footer Part End================= */
