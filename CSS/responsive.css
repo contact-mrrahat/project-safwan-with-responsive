@@ -1,0 +1,81 @@
+@media (min-width:320px) and (max-width:575.99px){
+
+    /* ===========Navbar Part Start================ */
+    .navbar {
+        padding: 20px 0;
+    }
+    .navbar-brand a{
+        height: 29px;
+        width: 91px;
+    }
+    
+    .navbar-nav {
+        column-gap: 58px;
+        align-items: center;
+        padding-bottom: 16px;
+    }
+    
+    .nav-link:hover{
+        color: #00413D;
+    }
+    
+    .navbar .menu_button a {
+        background: #E5745D;
+        padding: 10px 14px;
+        font-size: 15px;
+    }
+    .navbar .menu_button a::after {
+        width: 86%;
+        height: 79%;
+        left: 9px;
+        top: 5px;
+        
+    }
+    
+    .navbar .menu_button{
+        text-align: center;
+    }
+    /* ===========Navbar Part End================ */
+
+    /* ===========Banner Part Start================ */
+    .banner .overlay {
+        width: 0%;
+        
+    }
+    .banner h1 {
+        font-size: 34px;
+        padding-top: 94px;
+      
+    }
+
+    .banner p {
+        
+        font-size: 14px;
+        width: 300px;
+    }
+    .menu_button a {
+        
+        padding: 16px 27px;
+        
+    }
+    .menu_button a::after {
+        width: 84%;
+        height: 72%;
+        left: 11px;
+        top: 8px;
+        
+    }
+    .banner .banner_button {
+        padding-bottom: 145px;
+        padding-top: 50px;
+    }
+
+    /* ===========Banner Part End================ */
+
+    /* ===========Service Part Start================ */
+    
+    /* ===========Service Part End================ */
+
+
+
+}

@@ -1,2 +1,0 @@
- font-family: "Vollkorn", serif;
-font-family: "Jost", sans-serif;
