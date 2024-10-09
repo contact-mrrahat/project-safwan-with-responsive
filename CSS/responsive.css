@@ -73,8 +73,52 @@
     /* ===========Banner Part End================ */
 
     /* ===========Service Part Start================ */
-    
+    .service .service_tag {
+        
+        padding-top: 105px;
+    }
+    .service h3 {
+        font-size: 13px;
+       
+    }
+    .service_line {
+        margin: 0 19px;
+        width: 42px;
+    }
+
+    .service_header h1 {
+        padding-top: 9px;
+        text-align-last: center;
+        font-size: 32px;
+        width: 292px;
+    }
+    .service .row {
+        padding-top: 40px;
+        row-gap: 30px;
+        width: auto !important;
+    }
     /* ===========Service Part End================ */
+
+    /* ===========About Part Start================ */
+    .about1{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .about .about2 {
+        width: 100%;
+    
+    }
+    .about3 {
+        width: 80%;
+        height: 700px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 30px;
+       
+    }
+    /* ===========About Part End================ */
 
 
 
