@@ -118,7 +118,112 @@
         row-gap: 30px;
        
     }
+    .about_left {
+        padding-top: 76px;
+        gap: 12px;
+
+    }
+
+    .about_left_2 h1 {
+        font-size: 32px;
+     
+    }
+
+    .about_left_2 p {
+        font-size: 14px;
+    }
+    .about_button {
+        padding-top: 37px;
+    }
+    
+    .skill .row{
+        row-gap: 30px;
+    }
+
+
     /* ===========About Part End================ */
+
+    /* ===========Recent Part Start================ */
+
+    .recent .about_left {
+        padding-top: 61px;
+        gap: 14px;
+    }
+
+    .recent .header h1 {
+        font-size: 32px;
+       
+    }
+    .recent .slider {
+        display: flex;
+        
+    }
+
+    .recent_row{
+        width: 50%;
+    }
+    .recent_row2{
+        width: 50%;
+    }
+    .recent .slider .fa-arrow-left {
+        padding: 10px;
+       
+    }
+    .recent .slider .fa-arrow-right {
+        padding: 10px;
+       
+    }
+
+    .recent .recent_card .row{
+        row-gap: 30px;
+    }
+
+    .recent_button {
+        padding-top: 37px;
+        
+    }
+
+
+
+    /* ===========Recent Part End================ */
+    /* ===========Protfolio Part Start================ */
+
+    .protfolio_cnt h1 {     
+        font-size: 32px;
+    }
+
+    .protfolio_cnt_nav ul {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .protfolio .row {
+        row-gap: 30px;
+    }
+
+
+    /* ===========Protfolio Part End================ */
+
+    /* ===========Testimonial Part Start================ */
+
+    .testimonial h1 {
+        font-size: 30px;
+    }
+
+    .testi_reviwe_left {
+        
+        padding-top: 29px;
+        padding-left: 2px;
+    }
+    .testi_reviwe_right {
+       
+        padding-bottom: 50px;
+    }
+    .testi_right_img {
+        right: -20px;
+        top: 192px;
+    }
+    /* ===========Testimonial Part End================ */
 
 
 
