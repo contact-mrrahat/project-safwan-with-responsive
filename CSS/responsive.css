@@ -219,7 +219,7 @@
         padding-top:10px;
     }
     .testi_right_img {
-        right: -29px;
+        right: -10px;
         top: 192px;
     }
     .testimonial .testi_right {
@@ -247,8 +247,108 @@
     .testimonial_dot {
         padding-bottom: 41px;
     }
-
+    .dot_possiton1 {
+        right: 14px;
+        top: 9px;
+        
+    }
     /* ===========Testimonial Part End================ */
+
+    /* ===========Contact Part Start================ */
+
+    .contact_part .row{
+        flex-direction: column !important;
+        
+    }
+
+    .contact_left {
+        height: 450px;
+        
+
+    }
+    .contact_part .one {
+        width: 100%;
+    }
+
+    .contact_part .two {
+        width: 100%;
+    }
+    .contact_right h1 {
+        font-size: 32px;
+        
+    }
+    .contact_form {
+        
+        row-gap: 45px;
+    }
+    .contact_part .contact_right .row {
+        row-gap: 45px;
+    }
+    .contact_form {
+        padding-right: 20px;
+    }
+
+    .contact_button {
+        padding-top: 24px;
+    }
+    /* ===========Contact Part End================ */
+
+    /* ===========Blog Part Start================ */
+
+    .blog h1 {
+        font-size: 32px;
+        
+    }
+    .blog .row {
+        padding-top: 20px;
+    }
+    /* ===========Blog Part End================ */
+
+    /* ===========Footer Part End================ */
+    footer {
+        margin-top: 80px;
+    }
+    .footer_img {
+        padding-top: 50px;
+    }
+
+    .footer_nav ul {
+        flex-direction: column;
+    }
+
+    .footer_nav ul li {
+        border: none;
+        
+    }
+    .footer_nav {
+        padding-top: 39px;
+    }
+    .footer_nav ul {
+        row-gap: 17px;
+    }
+    .footer_logo {
+        padding-top: 25px;
+        padding-bottom: 29px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer_logo ul li {
+        
+        width: 40px;
+        height: 40px;
+        
+    }
+
+    .footer_logo ul li i {
+        font-size: 18px;
+    }
+    .copy_right {
+        padding-top: 25px;
+        padding-bottom: 11px;
+    }
+    /* ===========Footer Part End================ */
 
 
 
