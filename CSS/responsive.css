@@ -207,22 +207,47 @@
     /* ===========Testimonial Part Start================ */
 
     .testimonial h1 {
-        font-size: 30px;
+        font-size: 32px;
     }
-
-    .testi_reviwe_left {
-        
-        padding-top: 29px;
-        padding-left: 2px;
+    .testimonial .testi_p{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
     }
-    .testi_reviwe_right {
-       
-        padding-bottom: 50px;
+    .resti_right{
+        padding-top:10px;
     }
     .testi_right_img {
-        right: -20px;
+        right: -29px;
         top: 192px;
     }
+    .testimonial .testi_right {
+        width: 300px;
+    }
+
+    .testi_reviwe {
+        column-gap: 15px;
+    }
+    .testi_reviwe_left {
+        width: 29%;
+        padding-top: 29px;
+        padding-left: 18px;
+    }
+    .testi_reviwe_right h1 {
+        font-size:30px;       
+    }
+    .testi_reviwe ul {
+        padding-bottom: 71px;
+    }
+
+    .testimonial_dot ul {
+        padding-top: 34px;
+    }
+    .testimonial_dot {
+        padding-bottom: 41px;
+    }
+
     /* ===========Testimonial Part End================ */
 
 
