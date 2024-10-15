@@ -943,7 +943,7 @@
         top: 192px;
     }
     .testimonial .testi_right {
-        width: 300px;
+        width: 344px;
     }
 
     .testi_reviwe {
@@ -1091,13 +1091,11 @@
     }
     
     .nav-link:hover{
-        color: #00413D;
+        color: #E5745D;
     }
     
     .navbar .menu_button a {
-        background: #E5745D;
-        padding: 10px 14px;
-        font-size: 15px;
+        padding: 20px 28px;
     }
     .navbar .menu_button a::after {
         width: 86%;
@@ -1118,7 +1116,7 @@
         
     }
     .banner h1 {
-        font-size: 46px;
+        font-size: 52px;
         padding-top: 94px;
       
     }
@@ -1199,7 +1197,7 @@
        
     }
     .about_left {
-        padding-top: 76px;
+        padding-top: 154px;
         gap: 12px;
 
     }
@@ -1289,21 +1287,16 @@
     .testimonial h1 {
         font-size: 32px;
     }
-    .testimonial .testi_p{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-    }
+   
     .resti_right{
         padding-top:10px;
     }
     .testi_right_img {
-        right: -10px;
-        top: 192px;
+        right: -16px;
+        top: 147px;
     }
     .testimonial .testi_right {
-        width: 300px;
+        width: 448px;
     }
 
     .testi_reviwe {
